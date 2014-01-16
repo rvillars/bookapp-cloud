@@ -33,5 +33,17 @@
         </dependency>
 
     </dependencies>
+    
+    <build>
+		<plugins>
+			<plugin>
+				<groupId>org.cloudfoundry</groupId>
+				<artifactId>cf-maven-plugin</artifactId>
+				<configuration>
+					<skip>false</skip>
+				</configuration>
+			</plugin>  
+		</plugins>
+	</build>
 
 </project>
