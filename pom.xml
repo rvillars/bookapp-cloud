@@ -52,7 +52,7 @@
 		        <service>
 			    <name>bookapp-db</name>
 			    <label>cleardb</label>
-			    <provider>cleaddb</provider>
+			    <provider>cleardb</provider>
 			    <version>n/a</version>
 			    <plan>spark</plan>
 			</service>
